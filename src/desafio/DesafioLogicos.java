@@ -15,10 +15,10 @@ public class DesafioLogicos {
 		boolean sorvete = tv50 || tv32;
 		boolean maisSaudavel = !sorvete;
 		
-		System.out.printf("\nVocê comprou a TV de 5\"'? %b. Vamos tomar sorvete? %b",
+		System.out.printf("\nVocê comprou a TV de 50\"'? %b. Vamos tomar sorvete? %b",
 				tv50, sorvete);
 
-		System.out.printf("\nVocê comprou a TV de 3\"'? %b. Vamos tomar sorvete? %b",
+		System.out.printf("\nVocê comprou a TV de 32\"'? %b. Vamos tomar sorvete? %b",
 				tv32, sorvete);
 		System.out.printf("\nSe não tomou sorvete, ficou mais saudável. %b", maisSaudavel);
 	}
